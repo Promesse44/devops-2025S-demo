@@ -61,6 +61,13 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
+# Terraform state, local plugins, variables, and private keys
+*.tfstate*
+.terraform/
+*.tfvars
+*.pem
+*.key
+
 # Flask stuff:
 instance/
 .webassets-cache
